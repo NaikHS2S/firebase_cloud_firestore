@@ -60,21 +60,21 @@
                 android:id="@+id/addUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="add User"
+                android:text="add or update Contact"
                 tools:layout_editor_absoluteX="160dp"
                 tools:layout_editor_absoluteY="256dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Remove User" />
+                android:text="Remove Document" />
 
             <EditText
-                android:id="@+id/userID"
+                android:id="@+id/documentPath"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="User Id"
+                android:hint="Document Path"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="122dp"
                 tools:layout_editor_absoluteY="164dp" />
